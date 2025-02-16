@@ -25,7 +25,11 @@ API: WeatherAPI
 Networking: Retrofit for API calls
 
 State Management: LiveData
+
+
 📷 Screenshots
+
+
 ![image](https://github.com/user-attachments/assets/cca46b3e-eff5-4ecd-97f4-8ecb312456af)
 ![image](https://github.com/user-attachments/assets/da03a1bc-5304-4a48-a73f-0f4ee53bdd9b)
 ![image](https://github.com/user-attachments/assets/7fd1d0ce-5bda-43be-88d5-e7c0b21cb77e)
