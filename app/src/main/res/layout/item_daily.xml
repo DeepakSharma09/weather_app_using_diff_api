@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="@drawable/bg_daily_weather"
+    android:gravity="center_vertical"
+    android:layout_margin="8dp"
+    android:elevation="4dp">
+
+    <!-- Day Name -->
+    <TextView
+        android:id="@+id/txtDay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Monday"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/merriweathersans_bold"
+        android:textStyle="bold"/>
+
+    <!-- Weather Icon -->
+
+    <!-- Temperature Range -->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimation"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:lottie_autoPlay="true"
+        android:layout_marginTop="10dp"
+        app:lottie_loop="true"
+        android:layout_marginBottom="10dp"
+        app:lottie_rawRes="@raw/sun" />
+
+    <TextView
+        android:id="@+id/txtTemp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Min: 20°C  Max: 28°C"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/merriweathersans_bold"
+        android:gravity="end"/>
+</LinearLayout>
